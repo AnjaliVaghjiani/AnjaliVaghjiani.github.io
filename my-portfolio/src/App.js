@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import './App.css';
 import AboutMe from './components/AboutMe';  // Import the AboutMe component
 import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import ContactMe from './components/Contact';
 function App() {
   return (
     <Router>
@@ -44,6 +46,8 @@ function App() {
 
           {/* About Me Page Route */}
           <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/projects" element = {<Projects/>} />
+          <Route path="/contact" element = {<ContactMe/>} />
         </Routes>
       </div>
     </Router>

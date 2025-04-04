@@ -1,0 +1,179 @@
+/* src/components/Projects.css */
+
+.projects-container {
+    padding: 40px;
+    background-color: #1e1e1e;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .projects-title {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .project-card {
+    background-color: #2b2b2b;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .project-card h2 {
+    color: #78FABC;
+  }
+  
+  .project-card p {
+    margin: 15px 0;
+    font-size: 1rem;
+  }
+  
+  .project-card a {
+    color: #ffd700;;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+
+  .project-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project-bullets {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #ccc;
+  }
+  
+  .project-bullets li {
+    margin-bottom: 5px;
+  }
+
+  .project-card.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .project-card.horizontal:hover {
+    transform: scale(1.02);
+  }
+  
+  .project-image-container {
+    flex: 1;
+    max-width: 250px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .project-content {
+    flex: 2;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .project-content h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #FFD700; /* or your brand color */
+  }
+  
+  .project-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .see-code-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+
+  .project-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  /* centers images horizontally */
+    align-items: center;      /* centers images vertically (if there's extra height) */
+    gap: 10px;
+    flex-wrap: wrap;          /* allows wrapping on smaller screens */
+  }
+  
+  
+  .project-image {
+    width: 120px; /* adjust to your preferred size */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  
+  .distributed-image{
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .sr-image{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .ma-image{
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .project-card.horizontal {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    
+  
+    .project-content {
+      text-align: center;
+    }
+  }
+  
+  
+  
+  
