@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.05978be1.css",
-    "main.js": "/static/js/main.458862d1.js",
-    "static/js/453.69f3745b.chunk.js": "/static/js/453.69f3745b.chunk.js",
-    "static/media/Sr2.png": "/static/media/Sr2.ee85b4350d1892fc7b61.png",
-    "static/media/MA.png": "/static/media/MA.74abb764f980953bb283.png",
-    "static/media/Monalisa.png": "/static/media/Monalisa.b963d55d9e83f2050092.png",
-    "static/media/Photo.png": "/static/media/Photo.6e3ce9fefae4a34e429e.png",
-    "static/media/LookAfter.png": "/static/media/LookAfter.6cffc0d652e5d0dcc087.png",
-    "static/media/LLM.pdf": "/static/media/LLM.855cf212b6dde1667057.pdf",
-    "static/media/distributedLearning.png": "/static/media/distributedLearning.8178444bb4ebd085063d.png",
-    "static/media/Sr.png": "/static/media/Sr.4cab578fb12878e6f304.png",
-    "index.html": "/index.html",
-    "main.05978be1.css.map": "/static/css/main.05978be1.css.map",
-    "main.458862d1.js.map": "/static/js/main.458862d1.js.map",
-    "453.69f3745b.chunk.js.map": "/static/js/453.69f3745b.chunk.js.map"
+    "main.css": "/Personal_Webpage/static/css/main.05978be1.css",
+    "main.js": "/Personal_Webpage/static/js/main.d17cf37f.js",
+    "static/js/453.69f3745b.chunk.js": "/Personal_Webpage/static/js/453.69f3745b.chunk.js",
+    "static/media/Sr2.png": "/Personal_Webpage/static/media/Sr2.ee85b4350d1892fc7b61.png",
+    "static/media/MA.png": "/Personal_Webpage/static/media/MA.74abb764f980953bb283.png",
+    "static/media/Monalisa.png": "/Personal_Webpage/static/media/Monalisa.b963d55d9e83f2050092.png",
+    "static/media/Photo.png": "/Personal_Webpage/static/media/Photo.6e3ce9fefae4a34e429e.png",
+    "static/media/LookAfter.png": "/Personal_Webpage/static/media/LookAfter.6cffc0d652e5d0dcc087.png",
+    "static/media/LLM.pdf": "/Personal_Webpage/static/media/LLM.855cf212b6dde1667057.pdf",
+    "static/media/distributedLearning.png": "/Personal_Webpage/static/media/distributedLearning.8178444bb4ebd085063d.png",
+    "static/media/Sr.png": "/Personal_Webpage/static/media/Sr.4cab578fb12878e6f304.png",
+    "index.html": "/Personal_Webpage/index.html",
+    "main.05978be1.css.map": "/Personal_Webpage/static/css/main.05978be1.css.map",
+    "main.d17cf37f.js.map": "/Personal_Webpage/static/js/main.d17cf37f.js.map",
+    "453.69f3745b.chunk.js.map": "/Personal_Webpage/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05978be1.css",
-    "static/js/main.458862d1.js"
+    "static/js/main.d17cf37f.js"
   ]
 }
