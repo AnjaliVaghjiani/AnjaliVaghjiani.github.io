@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';  // Import the AboutMe component
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import ContactMe from './components/Contact';
+import profileImage from './Images/Photo.png';
 function App() {
   return (
     <Router>
@@ -21,7 +22,7 @@ function App() {
                     {/* Left Side - Image */}
                     <div className="image-container">
                       <img
-                        src="/Images/Photo.png"  // Replace with your actual image file name
+                        src={profileImage}  // Replace with your actual image file name
                         alt="Profile"
                         className="profile-image"
                       />

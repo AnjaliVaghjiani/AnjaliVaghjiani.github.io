@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css'; // Make sure you have styles for the buttons here
-
+import LLMImage from '../Images/LLM.pdf';
 function AboutMe() {
   return (
     <div className="about-me-container">
@@ -107,7 +107,7 @@ function AboutMe() {
     <li><strong>Exploration:</strong> Explored and compared the top 10 frontier and 10 open-source LLMs</li>
     <li><strong>Techniques Applied:</strong> Applied advanced techniques like RAG, fine-tuning, and agentic workflows</li>
   </ul>
-      <a href="/Images/LLM.pdf" target="_blank" rel="noopener noreferrer">
+      <a href={LLMImage} target="_blank" rel="noopener noreferrer">
         View Certificate
       </a>
     </div>

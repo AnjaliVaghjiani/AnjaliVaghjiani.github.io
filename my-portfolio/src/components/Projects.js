@@ -2,6 +2,12 @@
 import React from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
+import LookAfter from '../Images/LookAfter.png';
+import distrubutedLearning from '../Images/distributedLearning.png';
+import MA from '../Images/MA.png';
+import Monalisa from '../Images/Monalisa.png';
+import sr from '../Images/Sr.png';
+import Sr2 from '../Images/Sr2.png';
 
 function Projects() {
   return (
@@ -10,7 +16,7 @@ function Projects() {
       <Link to="/project/distributed_learning" className="project-link">
       <div className="project-card">
         <div className="project-image-container">
-        <img src="/Images/distributedLearning.png" alt="Disrtibuted Learning" className="distributed-image" />
+        <img src={distrubutedLearning} alt="Disrtibuted Learning" className="distributed-image" />
         </div>
         <h2>Optimization Techniques for Distributed Training </h2>
         <p>
@@ -33,8 +39,8 @@ function Projects() {
   <div className="project-card">
     {/* Left - Image */}
     <div className="project-image-container">
-      <img src="/Images/LookAfter.png" alt="Look After App" className="project-image" />
-      <img src="/Images/Monalisa.png" alt="Look After App" className="project-image" />  
+      <img src={LookAfter} alt="Look After App" className="project-image" />
+      <img src={Monalisa} alt="Look After App" className="project-image" />  
     </div>
 
     {/* Right - Description */}
@@ -59,7 +65,7 @@ function Projects() {
       <Link to="/project/SymbolicRegression" className="project-link">
       <div className="project-card">
       <div className="project-image-container">
-        <img src="/Images/Sr2.png" alt="Symbolic Regression" className="sr-image" />
+        <img src={Sr2} alt="Symbolic Regression" className="sr-image" />
         </div>
         <h2>Symbolic Regression</h2>
         <p>
@@ -74,7 +80,7 @@ function Projects() {
       <Link to="/project/MaximumFLowAlgorithms" className="project-link">
       <div className="project-card">
       <div className="project-image-container">
-        <img src="/Images/MA.png" alt="Symbolic Regression" className="ma-image" />
+        <img src={MA} alt="Symbolic Regression" className="ma-image" />
         </div>
         <h2>Maximum Flow Algorithms</h2>
         <p>
