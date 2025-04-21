@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import './ContactMe.css';
+import '../css/ContactMe.css';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 

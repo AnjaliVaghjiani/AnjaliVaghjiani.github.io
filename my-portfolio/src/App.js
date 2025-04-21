@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import ContactMe from './components/Contact';
 import profileImage from './Images/Photo.png';
+import ProjectDetail from './components/ProjectDetalis';
 function App() {
   return (
     <Router>
@@ -49,6 +50,7 @@ function App() {
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects" element = {<Projects/>} />
           <Route path="/contact" element = {<ContactMe/>} />
+          <Route path="/project/:projectId" element={<ProjectDetail />} />
         </Routes>
       </div>
     </Router>

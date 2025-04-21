@@ -1,7 +1,19 @@
-import React from 'react';
-import './AboutMe.css'; // Make sure you have styles for the buttons here
+import React, { useState } from 'react';
+import '../css/AboutMe.css'; // Make sure you have styles for the buttons here
 import LLMImage from '../Images/LLM.pdf';
+import RequestCVForm from './RequestCV';
+
 function AboutMe() {
+  const [showRequestForm, setShowRequestForm] = useState(false);
+
+  const handleRequestCV = () =>{
+    setShowRequestForm(true);
+  }
+
+  const handleCloseForm = () => {
+    setShowRequestForm(false);
+  }
+
   return (
     <div className="about-me-container">
       <h1>Know Me More</h1>
@@ -135,14 +147,16 @@ function AboutMe() {
 
       {/* Buttons Below the Description */}
       <div className="buttons-container">
-        <a href="/path/to/your/CV.pdf" download>
-          <button className="download-cv-btn">Download CV</button>
-        </a>
+          <button className="download-cv-btn" onClick={handleRequestCV}>Request CV</button>
+        
         
         <a href="/contact">
           <button className="contact-me-btn">Contact Me</button>
         </a>
       </div>
+      {showRequestForm && (
+        <RequestCVForm onClose={handleCloseForm} />
+      )}
     </div>
   );
 }
