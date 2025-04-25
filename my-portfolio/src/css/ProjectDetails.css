@@ -64,6 +64,7 @@
     line-height: 1.7;
     color: white;
     margin-bottom: 40px;
+    text-align: left;
   }
   
   .project-description p {
@@ -100,6 +101,7 @@
   
   .project-links {
     margin-top: 40px;
+    color: #78FABC;
   }
   
   .github-link {
@@ -115,4 +117,20 @@
   
   .github-link:hover {
     background-color: #000;
+  }
+
+  .paper-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #78FABC;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .paper-link:hover {
+    background-color:#78FABC;
   }
