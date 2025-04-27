@@ -161,6 +161,13 @@
     object-fit: cover;
   }
 
+  .meme-image{
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
   @media (max-width: 768px) {
     .project-card.horizontal {
       flex-direction: column;

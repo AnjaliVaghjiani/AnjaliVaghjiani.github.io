@@ -134,3 +134,35 @@
   .paper-link:hover {
     background-color:#78FABC;
   }
+
+  .project-screenshots {
+    margin: 2rem 0;
+  }
+  
+  .project-screenshots h3 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  .screenshots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+  }
+  
+  .screenshot-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    max-height: 300px; /* optional: limits the vertical size */
+  }
+  
+  .screenshot-image:hover {
+    transform: scale(1.03);
+  }
+  

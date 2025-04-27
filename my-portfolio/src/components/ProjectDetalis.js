@@ -9,8 +9,8 @@ import MA from '../Images/MA.png';
 import Monalisa from '../Images/Monalisa.png';
 import sr from '../Images/Sr.png';
 import Sr2 from '../Images/Sr2.png';
-
-
+import homepage from '../Images/HomePage.png';
+import gamepage from '../Images/GamePage.png';
 // Project data object
 const projectsData = {
   distributed_learning: {
@@ -84,10 +84,61 @@ const projectsData = {
     4) High-Fidelity Prototype: Built a fully functional high-fidelity version of the app with all key features integrated.
     5) User Testing: Simulated a museum environment and conducted final testing sessions with visually impaired users to validate the application’s usability and accessibility.`,
     impact: `Early testing showed that users with visual impairments were able to navigate test environments with 85% more independence and reported a significantly enhanced experience compared to traditional museum visits.`,
-    more_images: ``,
+    screenshots:[],
     skills: ["JavaScript", "React Native", "Google Speech API", "Accessibility Design", "UI/UX"],
     github: "https://github.com/AnjaliVaghjiani/Look-After",
     // Keeping the legacy description for backward compatibility
+  },
+  MemeGame:{
+    title: "Meme Game",
+    subtitle: "Web Application Project",
+    images: [homepage],
+    introduction: `This project was developed by me as a part of the university coursework, I designed and developed a web application called Meme Game.
+    Inspired by the popular board game called "What Do You Meme?", the project challanged me to build a fully functional single-player version of the game using React for the front end, Node.js and Express for the backend, and SQLite for the database.
+    The goal was to create an engaging, time-limited game where users guess the best-fitting captions for a randomly presented meme image.`,
+    overview:`Meme Game is a web-based single page application (SPA) where users either anonymous or loggedin/registed, can play rounds of meme caption matching game.
+    The game workflow includes: \n
+    1) Presenting a random meme image with 7 possible captions.
+    2) The player must select one of the two correct captions with 30 seconds to earn points.
+    3) Registed users play full games with 3 rounds, track their past scores, and view game histories.
+    4) Anonoymous users are limited to single-round games without score history.
+    
+    All the server communication is handled through a structured set of RESTful APIs, and user authentication is managed via Passport.js using session cookies.`,
+    implementation:`\n
+    Front-End(Client)\n
+    1) React 18 with Vite as the build tool.
+    2) Organized into multiple reusable components.
+    3) Used React Router for client-side routing.
+    4) Managed global game state using React Context API and Hooks.
+    5) Styled primarily with React-Bootstrap for rapid prototyping and clean UI component.
+    6) Strict Mode enabled for deveopment to catch potential problems early.
+    7) Handled CORS to allow communication with the seperate backend server.
+    
+    \n
+    
+    Back-End (Server)\n
+    1) Built using Node.js and Express framework
+    2) Implemented RESTful APIs for all client-server communications.
+    3) Managed authentication with Passport.js and secure sessions.
+    4) Applied express-validation for input validation and security.
+    5) Used nodeman for efficient server development and live-reloading.
+    6) Pre-loaded the SQLite database with:\n
+     - 10 meme iamges\n
+     - 50 different captions\n
+     - 2 registed users (with salted and encrypted passwords)
+
+    `,
+    applications:`The project is develpoed using JavaScript (client and server side)\n
+    Libraries and Framework used are:\n
+     - React, React Router DOM, React Bootstrap, Day.js(for time handling)\n
+     - Axios, Express, Passport.js\n
+     - SQLite3, Express-Session, CORS, Bcrypt\n
+     
+    Development Tools:\n
+     - Vite, Nodemon, VSCode, Git & GitHub`,
+    screenshots: [gamepage],
+    skills: ["React", "Node.js", "Express", "SQLite", "REST APIs", "Passport.js", "Authentication", "Context API", "React Router", "JavaScript", "Web Development"],
+    github: "https://github.com/AnjaliVaghjiani/Meme-Game.git", 
   },
   SymbolicRegression: {
     title: "Symbolic Regression",
@@ -152,7 +203,6 @@ const projectsData = {
 function ProjectDetail() {
   const { projectId } = useParams();
   const project = projectsData[projectId];
-
   if (!project) {
     return (
       <div className="project-detail-container">
@@ -245,7 +295,8 @@ function ProjectDetail() {
     { title: "Design Process", field: "process" },
     { title: "Applications", field: "applications" },
     { title: "Impact", field: "impact" },
-    { title: "Paper", field: "paper" }
+    { title: "Paper", field: "paper" },
+
     
   ];
 
@@ -295,7 +346,21 @@ function ProjectDetail() {
           ))}
         </div>
       </div>
-      
+      {project.screenshots && project.screenshots.length > 0 && (
+        <div className="project-screenshots">
+          <h3>Project Screenshots</h3>
+          <div className="screenshots-grid">
+            {project.screenshots.map((shot, index) => (
+              <img
+                key={index}
+                src={shot}
+                alt={`Screenshot ${index + 1}`}
+                className="screenshot-image"
+              />
+            ))}
+          </div>
+        </div>
+      )}
       <div className="project-links">
         <a 
           href={project.github} 
@@ -321,6 +386,8 @@ function ProjectDetail() {
           </p>
         </div>
         )}
+      
+        
     </div>
   );
 }

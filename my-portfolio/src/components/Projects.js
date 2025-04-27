@@ -7,6 +7,7 @@ import MA from '../Images/MA.png';
 import Monalisa from '../Images/Monalisa.png';
 import sr from '../Images/Sr.png';
 import Sr2 from '../Images/Sr2.png';
+import homePage from '../Images/HomePage.png'
 
 function Projects() {
   return (
@@ -59,6 +60,27 @@ function Projects() {
           </div>
         </div>
       </Link>
+      <Link to="/project/MemeGame" className="project-link">
+        <div className="project-card">
+          <div className="project-image-container">
+            <img src={homePage} alt="Meme Game" className="meme-image" />
+          </div>
+          <h2>Meme Game</h2>
+          <p>
+            This project was designed as a part of university course project.
+          </p>
+          
+          <p>
+          Meme Game is a web-based single-page application (SPA) where users either anonymous or registered, can play rounds of a meme caption matching game.
+          For the same all server communication is handled through a structured set of RESTful APIs, and user authentication is managed via Passport.js using session cookies.
+          </p>
+          <div className="project-actions">
+            <a href="https://github.com/AnjaliVaghjiani/Meme-Game" target="_blank" rel="noopener noreferrer">
+              View Code
+            </a>
+          </div>
+        </div>
+      </Link>
 
       <Link to="/project/SymbolicRegression" className="project-link">
         <div className="project-card">
@@ -101,6 +123,8 @@ function Projects() {
           </div>
         </div>
       </Link>
+
+      
 
       {/* Add more project cards similarly */}
     </div>
