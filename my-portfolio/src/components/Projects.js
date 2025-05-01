@@ -10,6 +10,11 @@ import Sr2 from '../Images/Sr2.png';
 import homePage from '../Images/HomePage.png'
 
 function Projects() {
+
+  const handleGitHubClick = (e) => {
+    e.stopPropagation();
+  }
+
   return (
     <div className="projects-container">
       <h1 className="projects-title">My Projects</h1>
@@ -30,6 +35,7 @@ function Projects() {
           <a href="https://github.com/AnjaliVaghjiani/AML_Project5" 
               target="_blank" 
               rel="noopener noreferrer"
+              onClick={handleGitHubClick}
               >
             View Code
           </a>
@@ -54,6 +60,7 @@ function Projects() {
               href="https://github.com/AnjaliVaghjiani/Look-After"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={handleGitHubClick}
             >
               View Code
             </a>
@@ -75,7 +82,11 @@ function Projects() {
           For the same all server communication is handled through a structured set of RESTful APIs, and user authentication is managed via Passport.js using session cookies.
           </p>
           <div className="project-actions">
-            <a href="https://github.com/AnjaliVaghjiani/Meme-Game" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AnjaliVaghjiani/Meme-Game" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               onClick={handleGitHubClick}
+               >
               View Code
             </a>
           </div>
@@ -92,7 +103,7 @@ function Projects() {
             I have implemented this project using genetic algorithms to evolve and derive the mathematical formula that predicts the best fitness for the dataset provided.
           </p>
           <div className="project-actions">
-            <a href="https://github.com/AnjaliVaghjiani/CI2024_project-work" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AnjaliVaghjiani/CI2024_project-work" target="_blank" rel="noopener noreferrer" onClick={handleGitHubClick}>
               View Code
             </a>
           </div>
@@ -117,7 +128,7 @@ function Projects() {
             Each algorithm has both sequential and parallel implementations using OpenMP for optimization.
           </p>
           <div className="project-actions">
-            <a href="https://github.com/AnjaliVaghjiani/Maximum-Flow-Algorithms" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AnjaliVaghjiani/Maximum-Flow-Algorithms" target="_blank" rel="noopener noreferrer" onClick={handleGitHubClick}>
               View Code
             </a>
           </div>
