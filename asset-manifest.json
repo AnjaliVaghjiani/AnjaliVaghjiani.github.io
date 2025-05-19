@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.39d08994.css",
-    "main.js": "/static/js/main.8b69ee83.js",
+    "main.js": "/static/js/main.23b21872.js",
     "static/js/453.69f3745b.chunk.js": "/static/js/453.69f3745b.chunk.js",
     "static/media/Sr2.png": "/static/media/Sr2.ee85b4350d1892fc7b61.png",
     "static/media/HomePage.png": "/static/media/HomePage.3a3c3ba288a72eed040b.png",
     "static/media/MA.png": "/static/media/MA.74abb764f980953bb283.png",
     "static/media/Monalisa.png": "/static/media/Monalisa.b963d55d9e83f2050092.png",
-    "static/media/Photo.png": "/static/media/Photo.6e3ce9fefae4a34e429e.png",
     "static/media/GamePage.png": "/static/media/GamePage.87814d8dc6ab3e0c1ea7.png",
     "static/media/LookAfter.png": "/static/media/LookAfter.6cffc0d652e5d0dcc087.png",
     "static/media/LLM.pdf": "/static/media/LLM.855cf212b6dde1667057.pdf",
     "static/media/distributedLearning.png": "/static/media/distributedLearning.8178444bb4ebd085063d.png",
+    "static/media/Photo.png": "/static/media/Photo.f0e68010ee81e9f984ea.png",
     "static/media/Sr.png": "/static/media/Sr.4cab578fb12878e6f304.png",
     "index.html": "/index.html",
     "main.39d08994.css.map": "/static/css/main.39d08994.css.map",
-    "main.8b69ee83.js.map": "/static/js/main.8b69ee83.js.map",
+    "main.23b21872.js.map": "/static/js/main.23b21872.js.map",
     "453.69f3745b.chunk.js.map": "/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39d08994.css",
-    "static/js/main.8b69ee83.js"
+    "static/js/main.23b21872.js"
   ]
 }
