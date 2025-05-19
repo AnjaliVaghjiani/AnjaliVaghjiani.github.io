@@ -27,7 +27,7 @@ function App() {
                 <div className="profile-card">
                   <div className="profile-image-container">
                     <img
-                      // src={profileImage}
+                      src={profileImage}
                       alt="Profile"
                       className="profile-image"
                     />
