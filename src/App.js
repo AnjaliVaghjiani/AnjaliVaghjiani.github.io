@@ -42,7 +42,7 @@ function App() {
                     <a href="https://www.linkedin.com/in/anjalivaghjiani/" target="_blank" rel="noopener noreferrer" className="social-icon">
                       <FaLinkedin />
                     </a>
-                    <a href="mailto:your.email@example.com" className="social-icon">
+                    <a href="mailto:anjalivaghjiani29@gmail.com" className="social-icon">
                       <FaEnvelope />
                     </a>
                   </div>
