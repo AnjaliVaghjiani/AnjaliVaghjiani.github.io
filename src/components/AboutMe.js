@@ -21,11 +21,13 @@ function AboutMe() {
         Hello! I'm <span style={{color: '#78FABC'}}>Anjali Vaghjiani</span>, a passionate computer engineer specializing in AI and Data Science.
       </h2>
       <p>
-        I am a passionate Computer Engineer currently pursuing a master's degree in Artificial Intelligence and Data Science. With a strong foundation in AI, machine learning, and data-driven technologies, I am eager to apply my skills to real-world challenges and contribute meaningfully to the field.
+        Computer Engineer currently pursuing a master's degree in 
+                    Artificial Intelligence and Data Science at Politecnico di Torino. 
+                    My interests lie at the intersection of machine learning, data science, and intelligent systems. 
+                    I work with a range of AI technologies, including deep learning, natural language processing, and large language models (LLMs).
+                    With a strong foundation in programming, data analysis, and model development, I enjoy building solutions that are both innovative and practical. 
+                    Take a look around to see some of my work, or feel free to contact me. I’m always open to new ideas and collaborations.
 
-        My interests lie in developing intelligent systems, optimizing AI workflows, and leveraging data to drive innovation. I have hands-on experience with cutting-edge technologies, including natural language processing (NLP), generative AI, and deep learning, and I continually seek opportunities to learn and grow.
-
-        Excited to collaborate, innovate, and make a positive impact in the AI landscape! Let's connect and explore the possibilities of AI together.
       </p>
 
       {/* My Education Section */}

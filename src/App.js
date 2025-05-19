@@ -54,13 +54,15 @@ function App() {
                 
                 {/* Right Side - Description */}
                 <div className="intro-container">
-                  <h1 className="intro-heading">Hello, I'm Anjali</h1>
+                  <h1 className="intro-heading">Anjali Vaghjiani</h1>
                   <h3 className="intro-subheading">Artificial Intelligence & Data Science Engineer</h3>
                   
                   <p className="intro-text">
-                    I am a passionate Computer Engineer currently pursuing a master's degree in 
-                    Artificial Intelligence and Data Science. With a strong foundation in machine learning, 
+                    Computer Engineer currently pursuing a master's degree in 
+                    Artificial Intelligence and Data Science at Politecnico di Torino. With a strong foundation in machine learning, 
                     data analysis, and software development, I create innovative solutions to complex problems.
+                    I'm eager to explore, learn, and contribute to the ever-evolving landscape of intelligent technologies. 
+                    Welcome to my digital space where I share my insights and projects.
                   </p>
                   
                   <div className="cta-buttons">
