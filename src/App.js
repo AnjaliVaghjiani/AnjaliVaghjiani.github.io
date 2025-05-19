@@ -39,7 +39,7 @@ function App() {
                     <a href="https://github.com/AnjaliVaghjiani" target="_blank" rel="noopener noreferrer" className="social-icon">
                       <FaGithub />
                     </a>
-                    <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className="social-icon">
+                    <a href="https://www.linkedin.com/in/anjalivaghjiani/" target="_blank" rel="noopener noreferrer" className="social-icon">
                       <FaLinkedin />
                     </a>
                     <a href="mailto:your.email@example.com" className="social-icon">
