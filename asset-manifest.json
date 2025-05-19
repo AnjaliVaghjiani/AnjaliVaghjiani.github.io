@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Personal_Webpage/static/css/main.54d0a037.css",
-    "main.js": "/Personal_Webpage/static/js/main.18840a1b.js",
-    "static/js/453.69f3745b.chunk.js": "/Personal_Webpage/static/js/453.69f3745b.chunk.js",
-    "static/media/Sr2.png": "/Personal_Webpage/static/media/Sr2.ee85b4350d1892fc7b61.png",
-    "static/media/MA.png": "/Personal_Webpage/static/media/MA.74abb764f980953bb283.png",
-    "static/media/Monalisa.png": "/Personal_Webpage/static/media/Monalisa.b963d55d9e83f2050092.png",
-    "static/media/Photo.png": "/Personal_Webpage/static/media/Photo.6e3ce9fefae4a34e429e.png",
-    "static/media/LookAfter.png": "/Personal_Webpage/static/media/LookAfter.6cffc0d652e5d0dcc087.png",
-    "static/media/LLM.pdf": "/Personal_Webpage/static/media/LLM.855cf212b6dde1667057.pdf",
-    "static/media/distributedLearning.png": "/Personal_Webpage/static/media/distributedLearning.8178444bb4ebd085063d.png",
-    "static/media/Sr.png": "/Personal_Webpage/static/media/Sr.4cab578fb12878e6f304.png",
-    "index.html": "/Personal_Webpage/index.html",
-    "main.54d0a037.css.map": "/Personal_Webpage/static/css/main.54d0a037.css.map",
-    "main.18840a1b.js.map": "/Personal_Webpage/static/js/main.18840a1b.js.map",
-    "453.69f3745b.chunk.js.map": "/Personal_Webpage/static/js/453.69f3745b.chunk.js.map"
+    "main.css": "/anjalivaghjiani.github.io/static/css/main.39d08994.css",
+    "main.js": "/anjalivaghjiani.github.io/static/js/main.e94164fb.js",
+    "static/js/453.69f3745b.chunk.js": "/anjalivaghjiani.github.io/static/js/453.69f3745b.chunk.js",
+    "static/media/Sr2.png": "/anjalivaghjiani.github.io/static/media/Sr2.ee85b4350d1892fc7b61.png",
+    "static/media/HomePage.png": "/anjalivaghjiani.github.io/static/media/HomePage.3a3c3ba288a72eed040b.png",
+    "static/media/MA.png": "/anjalivaghjiani.github.io/static/media/MA.74abb764f980953bb283.png",
+    "static/media/Monalisa.png": "/anjalivaghjiani.github.io/static/media/Monalisa.b963d55d9e83f2050092.png",
+    "static/media/Photo.png": "/anjalivaghjiani.github.io/static/media/Photo.6e3ce9fefae4a34e429e.png",
+    "static/media/GamePage.png": "/anjalivaghjiani.github.io/static/media/GamePage.87814d8dc6ab3e0c1ea7.png",
+    "static/media/LookAfter.png": "/anjalivaghjiani.github.io/static/media/LookAfter.6cffc0d652e5d0dcc087.png",
+    "static/media/LLM.pdf": "/anjalivaghjiani.github.io/static/media/LLM.855cf212b6dde1667057.pdf",
+    "static/media/distributedLearning.png": "/anjalivaghjiani.github.io/static/media/distributedLearning.8178444bb4ebd085063d.png",
+    "static/media/Sr.png": "/anjalivaghjiani.github.io/static/media/Sr.4cab578fb12878e6f304.png",
+    "index.html": "/anjalivaghjiani.github.io/index.html",
+    "main.39d08994.css.map": "/anjalivaghjiani.github.io/static/css/main.39d08994.css.map",
+    "main.e94164fb.js.map": "/anjalivaghjiani.github.io/static/js/main.e94164fb.js.map",
+    "453.69f3745b.chunk.js.map": "/anjalivaghjiani.github.io/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54d0a037.css",
-    "static/js/main.18840a1b.js"
+    "static/css/main.39d08994.css",
+    "static/js/main.e94164fb.js"
   ]
 }
