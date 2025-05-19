@@ -45,9 +45,6 @@ function App() {
                     <a href="mailto:your.email@example.com" className="social-icon">
                       <FaEnvelope />
                     </a>
-                    <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className="social-icon">
-                      <FaTwitter />
-                    </a>
                   </div>
                 </div>
                 </div>
